@@ -23,7 +23,7 @@ const CartItem = props => (
       }
 
       const onClickIncrement = () => {
-        incrementCartItemQuantity()
+        incrementCartItemQuantity(id)
       }
 
       const totalPrice = price * quantity
